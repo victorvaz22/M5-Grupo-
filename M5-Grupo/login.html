@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+       
+
+        <title>Moonzaco</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    <i class='bx bxs-moon nav__logo-icon'></i> Moonzaco
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+
+                    <div class="home__img-bg">
+                        <img src="assets/img/home.png" alt="" class="home__img">
+                    </div>
+                    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://tiktok.com/" target="_blank" class="home__social-link">
+                            Tiktok
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1>Entrar</h1>
+                        
+                        <form class="form" id="form">
+                
+                            <div class="form-control">
+                
+                                <label>Email</label>
+                                <input type="email" id="email">
+                                <i class="img-success" ><img src="/assets/img_login/success-icon.svg" alt=""></i>
+                                <i class="img-error" ><img src="/assets/img_login/error-icon.svg" alt=""></i>
+                
+                                <small>Error Message</small>
+                
+                            </div>
+                
+                            <div class="form-control">
+                
+                                <label>Senha</label>
+                                <input type="password" id="password">
+                                <i class="img-success" ><img src="/assets/img_login/success-icon.svg" alt=""></i>
+                                <i class="img-error" ><img src="./assets/img_login/error-icon.svg" alt=""></i>
+                
+                                <small>Error Message</small>
+                
+                            </div>
+
+                        <div class="home__btns">
+                            <button class="button_login">Entrar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/login.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+       >
+    </body>
+</html>
